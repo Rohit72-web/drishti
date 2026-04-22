@@ -1,0 +1,116 @@
+pincode,area_name,state,population,avg_income,tier,tier_multiplier,literacy_rate,urban_rural,digital_payment_adoption,kirana_density_per_sqkm,state_multiplier
+800001,Patna,Bihar,122676,40725,tier2,0.95,0.72,urban,0.4,28.2,0.85
+800002,Patna West,Bihar,97685,40980,tier2,0.95,0.67,urban,0.51,7.3,0.85
+800003,Patna East,Bihar,84038,35037,tier2,0.95,0.66,urban,0.39,25.6,0.85
+800004,Patna Central,Bihar,105755,39651,tier2,0.95,0.81,urban,0.71,6.6,0.85
+800011,Patna Sahib,Bihar,81816,32228,tier2,0.95,0.74,urban,0.37,34.7,0.85
+800020,Danapur,Bihar,70117,25719,tier2,0.95,0.68,urban,0.73,24.3,0.85
+801503,Hajipur,Bihar,57702,23010,tier3,0.78,0.79,semi_urban,0.65,17.6,0.85
+803101,Bihar Sharif,Bihar,48399,20251,tier3,0.78,0.82,semi_urban,0.6,23.5,0.85
+811101,Munger,Bihar,46472,16364,tier3,0.78,0.71,semi_urban,0.36,8.8,0.85
+812001,Bhagalpur,Bihar,59349,23005,tier2,0.95,0.73,urban,0.62,17.2,0.85
+813210,Banka,Bihar,27418,10360,tier3,0.78,0.72,semi_urban,0.64,25.6,0.85
+814101,Deoghar,Bihar,35611,13079,tier3,0.78,0.85,semi_urban,0.3,17.6,0.85
+821301,Sasaram,Bihar,34506,13363,tier3,0.78,0.8,semi_urban,0.53,31.3,0.85
+823001,Gaya,Bihar,60561,21753,tier2,0.95,0.66,urban,0.45,14.3,0.85
+824101,Aurangabad Bihar,Bihar,28612,13062,tier3,0.78,0.89,semi_urban,0.37,25.8,0.85
+825301,Hazaribagh,Bihar,37365,16243,tier3,0.78,0.77,semi_urban,0.35,13.7,0.85
+826001,Dhanbad,Bihar,68667,25718,tier2,0.95,0.81,urban,0.75,18.2,0.85
+827001,Bokaro,Bihar,52530,24189,tier2,0.95,0.79,urban,0.33,7.8,0.85
+831001,Jamshedpur,Bihar,67503,29739,tier2,0.95,0.86,urban,0.51,8.3,0.85
+832301,Seraikela,Bihar,21583,9893,rural,0.62,0.79,rural,0.52,31.9,0.85
+841001,Siwan,Bihar,23045,10441,tier3,0.78,0.83,semi_urban,0.46,14.3,0.85
+842001,Muzaffarpur,Bihar,53172,19368,tier2,0.95,0.77,urban,0.52,34.6,0.85
+843101,Sitamarhi,Bihar,21202,7621,rural,0.62,0.79,rural,0.25,33.4,0.85
+844101,Vaishali,Bihar,19067,6717,rural,0.62,0.82,rural,0.39,10.9,0.85
+845401,Motihari,Bihar,29176,11086,tier3,0.78,0.86,semi_urban,0.46,6.4,0.85
+846001,Darbhanga,Bihar,43733,16270,tier3,0.78,0.9,semi_urban,0.61,31.0,0.85
+847001,Madhubani,Bihar,21322,8204,rural,0.62,0.89,rural,0.51,8.9,0.85
+848101,Samastipur,Bihar,24943,9138,tier3,0.78,0.86,semi_urban,0.56,10.2,0.85
+851101,Begusarai,Bihar,34861,14139,tier3,0.78,0.72,semi_urban,0.61,18.9,0.85
+852101,Supaul,Bihar,17169,7055,rural,0.62,0.85,rural,0.25,15.6,0.85
+854101,Araria,Bihar,21584,8239,rural,0.62,0.77,rural,0.36,10.0,0.85
+855101,Kishanganj,Bihar,21030,8708,rural,0.62,0.81,rural,0.26,12.9,0.85
+800005,Kankarbagh,Bihar,107106,47206,tier2,0.95,0.71,urban,0.76,31.8,0.85
+800006,Rajendra Nagar,Bihar,116417,47380,tier2,0.95,0.83,urban,0.4,10.3,0.85
+800007,Boring Road,Bihar,144407,54767,tier2,0.95,0.78,urban,0.69,30.3,0.85
+400001,Mumbai Fort,Maharashtra,304148,117681,metro,1.3,0.77,urban,0.69,30.3,1.2
+400002,Mumbai CST,Maharashtra,305812,122091,metro,1.3,0.92,urban,0.46,27.5,1.2
+400003,Mumbai Byculla,Maharashtra,238700,105088,metro,1.3,0.72,urban,0.53,29.5,1.2
+400050,Bandra West,Maharashtra,375250,145267,metro,1.3,0.72,urban,1.05,29.3,1.2
+400051,Bandra East,Maharashtra,327922,125248,metro,1.3,0.66,urban,1.1,46.7,1.2
+400053,Santacruz,Maharashtra,317136,128062,metro,1.3,0.88,urban,0.51,31.2,1.2
+400059,Andheri West,Maharashtra,324427,133308,metro,1.3,0.67,urban,0.66,53.3,1.2
+400069,Malad,Maharashtra,269481,118363,metro,1.3,0.77,urban,0.69,52.1,1.2
+400078,Powai,Maharashtra,388536,145606,metro,1.3,0.84,urban,0.5,22.8,1.2
+411001,Pune Camp,Maharashtra,236498,89393,tier1,1.1,0.8,urban,0.78,12.1,1.2
+411002,Pune Shivajinagar,Maharashtra,217895,86049,tier1,1.1,0.88,urban,0.43,52.3,1.2
+411007,Pune Kothrud,Maharashtra,181899,73098,tier1,1.1,0.81,urban,0.74,20.0,1.2
+411028,Pune Hadapsar,Maharashtra,164356,75464,tier1,1.1,0.72,urban,0.69,37.1,1.2
+411045,Pune Wakad,Maharashtra,182609,75238,tier1,1.1,0.79,urban,0.9,18.7,1.2
+420001,Thane,Maharashtra,204848,74871,tier1,1.1,0.76,urban,0.74,22.9,1.2
+421001,Kalyan,Maharashtra,140735,60921,tier2,0.95,0.67,urban,0.52,36.0,1.2
+421201,Dombivli,Maharashtra,145715,49391,tier2,0.95,0.71,urban,0.42,34.0,1.2
+422001,Nashik,Maharashtra,167628,67778,tier2,0.95,0.75,urban,0.37,31.1,1.2
+431001,Aurangabad MH,Maharashtra,152819,60317,tier2,0.95,0.92,urban,0.63,6.6,1.2
+440001,Nagpur,Maharashtra,173371,63351,tier2,0.95,0.83,urban,0.78,10.4,1.2
+440010,Nagpur West,Maharashtra,136077,53441,tier2,0.95,0.8,urban,0.43,24.3,1.2
+416001,Kolhapur,Maharashtra,132456,47976,tier2,0.95,0.82,urban,0.42,20.9,1.2
+415001,Satara,Maharashtra,101161,40630,tier3,0.78,0.67,semi_urban,0.42,14.6,1.2
+413001,Solapur,Maharashtra,108626,49548,tier2,0.95,0.82,urban,0.42,28.3,1.2
+110001,Connaught Place,Delhi,423472,165570,metro,1.3,0.65,urban,0.44,48.8,1.35
+110002,Darya Ganj,Delhi,303419,115039,metro,1.3,0.88,urban,0.81,16.2,1.35
+110003,Lodi Estate,Delhi,329136,134631,metro,1.3,0.89,urban,0.96,47.8,1.35
+110005,Karol Bagh,Delhi,335105,118693,metro,1.3,0.72,urban,0.46,44.2,1.35
+110006,Daryaganj,Delhi,307823,113827,metro,1.3,0.82,urban,0.5,50.9,1.35
+110007,Patel Nagar,Delhi,280459,116095,metro,1.3,0.87,urban,1.02,10.7,1.35
+110008,Janakpuri,Delhi,290598,108240,metro,1.3,0.9,urban,0.96,48.0,1.35
+110009,Rohini,Delhi,272927,99149,metro,1.3,0.86,urban,0.47,48.3,1.35
+110015,Kirti Nagar,Delhi,259056,92559,metro,1.3,0.87,urban,0.72,23.2,1.35
+110017,Malviya Nagar,Delhi,308940,111571,metro,1.3,0.66,urban,0.53,24.2,1.35
+110019,Greater Kailash,Delhi,407444,168380,metro,1.3,0.73,urban,0.85,27.3,1.35
+110020,Hauz Khas,Delhi,403868,151086,metro,1.3,0.9,urban,0.47,52.7,1.35
+110025,Saket,Delhi,322514,148580,metro,1.3,0.72,urban,0.47,28.9,1.35
+110034,Pitampura,Delhi,279873,103975,metro,1.3,0.81,urban,0.76,26.7,1.35
+110044,Badarpur,Delhi,197389,74173,metro,1.3,0.84,urban,0.39,50.7,1.35
+110051,Shahdara,Delhi,216322,89774,metro,1.3,0.85,urban,0.87,25.8,1.35
+110059,Dwarka,Delhi,265390,117744,metro,1.3,0.74,urban,0.61,47.3,1.35
+110063,Uttam Nagar,Delhi,227735,84485,metro,1.3,0.73,urban,0.68,27.5,1.35
+110075,Vikaspuri,Delhi,227316,86993,metro,1.3,0.76,urban,1.06,39.7,1.35
+110085,Rohini Sec 24,Delhi,271434,104356,metro,1.3,0.73,urban,0.78,9.6,1.35
+560001,Bangalore MG Road,Karnataka,381532,155784,metro,1.3,0.81,urban,0.86,30.2,1.25
+560002,Bangalore Shivajinagar,Karnataka,312084,118785,metro,1.3,0.78,urban,1.03,44.9,1.25
+560003,Bangalore Basavanagudi,Karnataka,279409,108201,metro,1.3,0.79,urban,0.84,24.5,1.25
+560008,Bangalore Rajajinagar,Karnataka,289010,115525,metro,1.3,0.83,urban,0.55,18.4,1.25
+560010,Bangalore Malleswaram,Karnataka,263313,108182,metro,1.3,0.78,urban,1.0,12.8,1.25
+560017,Bangalore Yelahanka,Karnataka,221919,92335,metro,1.3,0.7,urban,0.89,31.6,1.25
+560034,Bangalore Jayanagar,Karnataka,297301,127870,metro,1.3,0.65,urban,0.93,43.8,1.25
+560038,Bangalore BTM,Karnataka,271745,114263,metro,1.3,0.7,urban,1.07,32.6,1.25
+560041,Bangalore Koramangala,Karnataka,338732,138676,metro,1.3,0.88,urban,0.72,45.2,1.25
+560068,Bangalore Electronic City,Karnataka,261837,111953,metro,1.3,0.81,urban,1.07,49.2,1.25
+560076,Bangalore Whitefield,Karnataka,341038,139876,metro,1.3,0.79,urban,0.98,33.9,1.25
+560103,Bangalore Hebbal,Karnataka,297794,117457,metro,1.3,0.78,urban,0.58,20.6,1.25
+575001,Mangalore,Karnataka,148193,61083,tier2,0.95,0.79,urban,0.61,14.5,1.25
+580001,Hubli,Karnataka,119346,48814,tier2,0.95,0.72,urban,0.45,22.4,1.25
+590001,Belgaum,Karnataka,108346,43527,tier2,0.95,0.84,urban,0.65,8.3,1.25
+570001,Mysore,Karnataka,135959,55468,tier2,0.95,0.76,urban,0.39,18.8,1.25
+226001,Lucknow Hazratganj,UP,207630,79311,tier1,1.1,0.84,urban,0.85,43.6,0.95
+226002,Lucknow Chowk,UP,161842,59477,tier1,1.1,0.74,urban,0.79,47.5,0.95
+226003,Lucknow Aliganj,UP,187696,68866,tier1,1.1,0.85,urban,0.66,36.4,0.95
+226010,Lucknow Gomti Nagar,UP,205386,81174,tier1,1.1,0.77,urban,0.35,24.5,0.95
+226016,Lucknow Indira Nagar,UP,190302,72583,tier1,1.1,0.69,urban,0.61,15.3,0.95
+208001,Kanpur Central,UP,158031,56134,tier1,1.1,0.76,urban,0.67,10.8,0.95
+208002,Kanpur Kidwai,UP,138083,50065,tier1,1.1,0.77,urban,0.36,26.4,0.95
+282001,Agra,UP,138310,55991,tier2,0.95,0.86,urban,0.48,28.7,0.95
+250001,Meerut,UP,145328,52274,tier2,0.95,0.67,urban,0.3,22.4,0.95
+201001,Ghaziabad,UP,181437,64989,tier1,1.1,0.83,urban,0.8,38.5,0.95
+201301,Noida,UP,218542,91553,tier1,1.1,0.7,urban,0.34,16.4,0.95
+201309,Greater Noida,UP,183338,80643,tier1,1.1,0.8,urban,0.46,40.7,0.95
+221001,Varanasi,UP,133466,47611,tier2,0.95,0.81,urban,0.68,9.8,0.95
+211001,Prayagraj,UP,124028,51368,tier2,0.95,0.68,urban,0.3,15.6,0.95
+243001,Bareilly,UP,107979,45848,tier2,0.95,0.76,urban,0.66,8.6,0.95
+247001,Saharanpur,UP,100988,39992,tier2,0.95,0.68,urban,0.69,31.6,0.95
+204101,Aligarh,UP,93478,34195,tier2,0.95,0.92,urban,0.69,16.7,0.95
+273001,Gorakhpur,UP,93911,37016,tier2,0.95,0.79,urban,0.46,31.5,0.95
+244001,Moradabad,UP,92538,32238,tier2,0.95,0.91,urban,0.62,30.9,0.95
+262001,Pilibhit,UP,49592,18754,tier3,0.78,0.85,semi_urban,0.65,14.4,0.95

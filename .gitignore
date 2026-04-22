@@ -1,0 +1,32 @@
+# API keys and credentials
+config.py
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+venv/
+env/
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test files
+test_image.py
+test_geo.py
+test_full.py
+
+# Large model files
+*.pt
+*.pkl
+*.h5
+
+# Temporary files
+*.tmp
+*.log

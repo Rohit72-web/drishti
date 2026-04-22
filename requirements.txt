@@ -1,0 +1,15 @@
+ultralytics
+opencv-python
+pillow
+google-cloud-vision
+geopy
+shapely
+folium
+scikit-learn
+pandas
+numpy
+requests
+fastapi
+uvicorn
+streamlit
+python-multipart

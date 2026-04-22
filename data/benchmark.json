@@ -1,0 +1,151 @@
+{
+  "store_tiers": {
+    "small": {
+      "description": "Village or small lane kirana — limited stock, low footfall",
+      "daily_sales_min": 2000,
+      "daily_sales_max": 5000,
+      "monthly_revenue_min": 52000,
+      "monthly_revenue_max": 130000,
+      "monthly_income_min": 4160,
+      "monthly_income_max": 19500,
+      "avg_sku_count": 80,
+      "avg_shelf_density": 0.55,
+      "typical_area_sqft": 80,
+      "margin_band_min": 0.08,
+      "margin_band_max": 0.15,
+      "working_days_per_month": 26,
+      "drishti_score_range": [0.0, 0.35]
+    },
+    "medium": {
+      "description": "Urban residential kirana — moderate stock, regular footfall",
+      "daily_sales_min": 5000,
+      "daily_sales_max": 15000,
+      "monthly_revenue_min": 130000,
+      "monthly_revenue_max": 390000,
+      "monthly_income_min": 10400,
+      "monthly_income_max": 58500,
+      "avg_sku_count": 200,
+      "avg_shelf_density": 0.70,
+      "typical_area_sqft": 180,
+      "margin_band_min": 0.08,
+      "margin_band_max": 0.15,
+      "working_days_per_month": 26,
+      "drishti_score_range": [0.35, 0.60]
+    },
+    "large": {
+      "description": "High footfall urban kirana — full stock, branded products, busy counter",
+      "daily_sales_min": 15000,
+      "daily_sales_max": 40000,
+      "monthly_revenue_min": 390000,
+      "monthly_revenue_max": 1040000,
+      "monthly_income_min": 31200,
+      "monthly_income_max": 156000,
+      "avg_sku_count": 500,
+      "avg_shelf_density": 0.82,
+      "typical_area_sqft": 350,
+      "margin_band_min": 0.08,
+      "margin_band_max": 0.15,
+      "working_days_per_month": 26,
+      "drishti_score_range": [0.60, 0.80]
+    },
+    "semi_wholesale": {
+      "description": "Semi-wholesale kirana — bulk stock, supplies nearby shops too",
+      "daily_sales_min": 40000,
+      "daily_sales_max": 100000,
+      "monthly_revenue_min": 1040000,
+      "monthly_revenue_max": 2600000,
+      "monthly_income_min": 83200,
+      "monthly_income_max": 390000,
+      "avg_sku_count": 900,
+      "avg_shelf_density": 0.92,
+      "typical_area_sqft": 600,
+      "margin_band_min": 0.08,
+      "margin_band_max": 0.15,
+      "working_days_per_month": 26,
+      "drishti_score_range": [0.80, 1.00]
+    }
+  },
+  "regional_multipliers": {
+    "metro": {
+      "cities": ["Mumbai", "Delhi", "Bengaluru", "Chennai", "Hyderabad", "Kolkata"],
+      "sales_multiplier": 1.30,
+      "income_multiplier": 1.25
+    },
+    "tier1": {
+      "cities": ["Pune", "Ahmedabad", "Jaipur", "Lucknow", "Surat", "Kanpur"],
+      "sales_multiplier": 1.10,
+      "income_multiplier": 1.08
+    },
+    "tier2": {
+      "cities": ["Patna", "Bhopal", "Indore", "Nagpur", "Vadodara", "Coimbatore"],
+      "sales_multiplier": 0.95,
+      "income_multiplier": 0.92
+    },
+    "tier3_rural": {
+      "cities": ["Others", "Rural", "Village"],
+      "sales_multiplier": 0.75,
+      "income_multiplier": 0.70
+    }
+  },
+  "seasonal_multipliers": {
+    "january": 0.90,
+    "february": 0.88,
+    "march": 0.92,
+    "april": 0.95,
+    "may": 0.98,
+    "june": 0.93,
+    "july": 0.91,
+    "august": 0.94,
+    "september": 0.96,
+    "october": 1.20,
+    "november": 1.35,
+    "december": 1.25
+  },
+  "poi_footfall_boost": {
+    "school": 0.15,
+    "hospital": 0.12,
+    "bus_station": 0.18,
+    "office": 0.10,
+    "market": 0.20,
+    "temple": 0.08,
+    "railway_station": 0.22,
+    "shopping_mall": 0.05
+  },
+  "road_type_multipliers": {
+    "arterial_highway": 1.30,
+    "main_road": 1.15,
+    "secondary_road": 1.00,
+    "residential_lane": 0.80,
+    "internal_street": 0.70
+  },
+  "competition_impact": {
+    "0_competitors": 1.10,
+    "1_2_competitors": 1.00,
+    "3_5_competitors": 0.88,
+    "6_10_competitors": 0.75,
+    "10_plus_competitors": 0.62
+  },
+  "brand_credit_signals": {
+    "amul": {"weight": 0.20, "min_daily_sales": 3000},
+    "pepsi": {"weight": 0.15, "min_daily_sales": 2500},
+    "coca_cola": {"weight": 0.15, "min_daily_sales": 2500},
+    "parle": {"weight": 0.12, "min_daily_sales": 2000},
+    "britannia": {"weight": 0.12, "min_daily_sales": 2000},
+    "maggi": {"weight": 0.10, "min_daily_sales": 1500},
+    "haldiram": {"weight": 0.10, "min_daily_sales": 2000},
+    "dabur": {"weight": 0.08, "min_daily_sales": 1500},
+    "itc": {"weight": 0.10, "min_daily_sales": 2000},
+    "hindustan_unilever": {"weight": 0.15, "min_daily_sales": 3000}
+  },
+  "economic_guardrails": {
+    "absolute_daily_min": 500,
+    "absolute_daily_max": 150000,
+    "max_confidence_score": 0.92,
+    "min_confidence_score": 0.10,
+    "min_images_required": 3,
+    "confidence_penalty_per_flag": 0.12,
+    "confidence_boost_per_brand": 0.03
+  },
+  "source": "RBI Annual Report 2023, NABARD Kirana Credit Study 2022, CRISIL MSME Report 2023",
+  "last_updated": "2024-01"
+}

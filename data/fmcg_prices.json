@@ -1,0 +1,193 @@
+{
+  "version": "1.0",
+  "source": "BigBasket, JioMart public listings Jan 2024",
+  "categories": {
+    "staples": {
+      "display_name": "Staples and Grains",
+      "margin_pct": 0.06,
+      "velocity": "high",
+      "products": {
+        "aashirvaad_atta_5kg": {"price": 280, "unit": "5kg", "brand": "aashirvaad", "category": "staples"},
+        "aashirvaad_atta_10kg": {"price": 540, "unit": "10kg", "brand": "aashirvaad", "category": "staples"},
+        "india_gate_basmati_1kg": {"price": 120, "unit": "1kg", "brand": "india_gate", "category": "staples"},
+        "fortune_refined_oil_1l": {"price": 145, "unit": "1l", "brand": "fortune", "category": "staples"},
+        "saffola_oil_1l": {"price": 175, "unit": "1l", "brand": "saffola", "category": "staples"},
+        "tata_salt_1kg": {"price": 24, "unit": "1kg", "brand": "tata", "category": "staples"},
+        "catch_turmeric_100g": {"price": 35, "unit": "100g", "brand": "catch", "category": "staples"},
+        "mdh_masala_100g": {"price": 55, "unit": "100g", "brand": "mdh", "category": "staples"},
+        "everest_masala_100g": {"price": 52, "unit": "100g", "brand": "everest", "category": "staples"},
+        "sugar_loose_1kg": {"price": 42, "unit": "1kg", "brand": "generic", "category": "staples"}
+      }
+    },
+    "dairy": {
+      "display_name": "Dairy and Beverages",
+      "margin_pct": 0.08,
+      "velocity": "very_high",
+      "products": {
+        "amul_butter_500g": {"price": 275, "unit": "500g", "brand": "amul", "category": "dairy"},
+        "amul_cheese_200g": {"price": 115, "unit": "200g", "brand": "amul", "category": "dairy"},
+        "amul_milk_1l": {"price": 68, "unit": "1l", "brand": "amul", "category": "dairy"},
+        "amul_dahi_400g": {"price": 52, "unit": "400g", "brand": "amul", "category": "dairy"},
+        "amul_lassi_200ml": {"price": 30, "unit": "200ml", "brand": "amul", "category": "dairy"},
+        "mother_dairy_milk_1l": {"price": 66, "unit": "1l", "brand": "mother_dairy", "category": "dairy"},
+        "nestle_munch": {"price": 10, "unit": "piece", "brand": "nestle", "category": "dairy"},
+        "amul_ice_cream_500ml": {"price": 185, "unit": "500ml", "brand": "amul", "category": "dairy"}
+      }
+    },
+    "beverages": {
+      "display_name": "Cold Drinks and Beverages",
+      "margin_pct": 0.12,
+      "velocity": "high",
+      "products": {
+        "pepsi_600ml": {"price": 40, "unit": "600ml", "brand": "pepsi", "category": "beverages"},
+        "pepsi_2l": {"price": 95, "unit": "2l", "brand": "pepsi", "category": "beverages"},
+        "coca_cola_600ml": {"price": 40, "unit": "600ml", "brand": "coca_cola", "category": "beverages"},
+        "thums_up_600ml": {"price": 40, "unit": "600ml", "brand": "coca_cola", "category": "beverages"},
+        "limca_600ml": {"price": 40, "unit": "600ml", "brand": "coca_cola", "category": "beverages"},
+        "sprite_600ml": {"price": 40, "unit": "600ml", "brand": "coca_cola", "category": "beverages"},
+        "mountain_dew_600ml": {"price": 40, "unit": "600ml", "brand": "pepsi", "category": "beverages"},
+        "maaza_250ml": {"price": 30, "unit": "250ml", "brand": "coca_cola", "category": "beverages"},
+        "slice_250ml": {"price": 30, "unit": "250ml", "brand": "pepsi", "category": "beverages"},
+        "frooti_250ml": {"price": 25, "unit": "250ml", "brand": "parle_agro", "category": "beverages"},
+        "appy_fizz_250ml": {"price": 30, "unit": "250ml", "brand": "parle_agro", "category": "beverages"},
+        "red_bull_250ml": {"price": 125, "unit": "250ml", "brand": "red_bull", "category": "beverages"},
+        "nescafe_classic_50g": {"price": 140, "unit": "50g", "brand": "nestle", "category": "beverages"},
+        "bru_coffee_50g": {"price": 130, "unit": "50g", "brand": "hindustan_unilever", "category": "beverages"},
+        "tata_tea_250g": {"price": 95, "unit": "250g", "brand": "tata", "category": "beverages"},
+        "red_label_250g": {"price": 115, "unit": "250g", "brand": "hindustan_unilever", "category": "beverages"}
+      }
+    },
+    "snacks": {
+      "display_name": "Snacks and Namkeen",
+      "margin_pct": 0.18,
+      "velocity": "very_high",
+      "products": {
+        "lays_26g": {"price": 20, "unit": "26g", "brand": "pepsi", "category": "snacks"},
+        "lays_73g": {"price": 40, "unit": "73g", "brand": "pepsi", "category": "snacks"},
+        "kurkure_70g": {"price": 30, "unit": "70g", "brand": "pepsi", "category": "snacks"},
+        "haldiram_bhujia_200g": {"price": 85, "unit": "200g", "brand": "haldiram", "category": "snacks"},
+        "haldiram_aloo_bhujia_400g": {"price": 160, "unit": "400g", "brand": "haldiram", "category": "snacks"},
+        "haldiram_mixture_200g": {"price": 80, "unit": "200g", "brand": "haldiram", "category": "snacks"},
+        "bingo_mad_angles_90g": {"price": 30, "unit": "90g", "brand": "itc", "category": "snacks"},
+        "act2_popcorn_30g": {"price": 20, "unit": "30g", "brand": "itc", "category": "snacks"},
+        "too_yumm_chips_55g": {"price": 30, "unit": "55g", "brand": "too_yumm", "category": "snacks"},
+        "pringles_107g": {"price": 150, "unit": "107g", "brand": "kelloggs", "category": "snacks"}
+      }
+    },
+    "biscuits": {
+      "display_name": "Biscuits and Cookies",
+      "margin_pct": 0.14,
+      "velocity": "very_high",
+      "products": {
+        "parle_g_800g": {"price": 85, "unit": "800g", "brand": "parle", "category": "biscuits"},
+        "parle_g_100g": {"price": 15, "unit": "100g", "brand": "parle", "category": "biscuits"},
+        "britannia_good_day_200g": {"price": 50, "unit": "200g", "brand": "britannia", "category": "biscuits"},
+        "britannia_marie_200g": {"price": 40, "unit": "200g", "brand": "britannia", "category": "biscuits"},
+        "britannia_50_50_200g": {"price": 45, "unit": "200g", "brand": "britannia", "category": "biscuits"},
+        "oreo_120g": {"price": 60, "unit": "120g", "brand": "cadbury", "category": "biscuits"},
+        "hide_seek_200g": {"price": 75, "unit": "200g", "brand": "parle", "category": "biscuits"},
+        "sunfeast_dark_fantasy_300g": {"price": 120, "unit": "300g", "brand": "itc", "category": "biscuits"},
+        "mcvities_digestive_250g": {"price": 95, "unit": "250g", "brand": "mcvities", "category": "biscuits"},
+        "tiger_biscuit_200g": {"price": 35, "unit": "200g", "brand": "britannia", "category": "biscuits"}
+      }
+    },
+    "instant_food": {
+      "display_name": "Instant Food and Noodles",
+      "margin_pct": 0.16,
+      "velocity": "high",
+      "products": {
+        "maggi_2min_70g": {"price": 14, "unit": "70g", "brand": "maggi", "category": "instant_food"},
+        "maggi_masala_pack4": {"price": 56, "unit": "4pack", "brand": "maggi", "category": "instant_food"},
+        "yippee_noodles_70g": {"price": 14, "unit": "70g", "brand": "itc", "category": "instant_food"},
+        "top_ramen_70g": {"price": 14, "unit": "70g", "brand": "nissin", "category": "instant_food"},
+        "knorr_soup_44g": {"price": 35, "unit": "44g", "brand": "hindustan_unilever", "category": "instant_food"},
+        "kitchens_of_india_ready_300g": {"price": 120, "unit": "300g", "brand": "itc", "category": "instant_food"},
+        "mtr_upma_mix_500g": {"price": 95, "unit": "500g", "brand": "mtr", "category": "instant_food"},
+        "gits_gulab_jamun_200g": {"price": 85, "unit": "200g", "brand": "gits", "category": "instant_food"}
+      }
+    },
+    "personal_care": {
+      "display_name": "Personal Care and Toiletries",
+      "margin_pct": 0.20,
+      "velocity": "medium",
+      "products": {
+        "lifebuoy_soap_100g": {"price": 30, "unit": "100g", "brand": "hindustan_unilever", "category": "personal_care"},
+        "lux_soap_100g": {"price": 45, "unit": "100g", "brand": "hindustan_unilever", "category": "personal_care"},
+        "colgate_200g": {"price": 75, "unit": "200g", "brand": "colgate", "category": "personal_care"},
+        "closeup_150g": {"price": 65, "unit": "150g", "brand": "hindustan_unilever", "category": "personal_care"},
+        "pepsodent_200g": {"price": 68, "unit": "200g", "brand": "hindustan_unilever", "category": "personal_care"},
+        "head_shoulders_180ml": {"price": 185, "unit": "180ml", "brand": "pg", "category": "personal_care"},
+        "dove_shampoo_180ml": {"price": 195, "unit": "180ml", "brand": "hindustan_unilever", "category": "personal_care"},
+        "clinic_plus_175ml": {"price": 85, "unit": "175ml", "brand": "hindustan_unilever", "category": "personal_care"},
+        "dettol_200ml": {"price": 95, "unit": "200ml", "brand": "dettol", "category": "personal_care"},
+        "savlon_200ml": {"price": 90, "unit": "200ml", "brand": "itc", "category": "personal_care"},
+        "gillette_mach3_cartridge": {"price": 220, "unit": "2pack", "brand": "pg", "category": "personal_care"},
+        "nivea_cream_60ml": {"price": 110, "unit": "60ml", "brand": "nivea", "category": "personal_care"}
+      }
+    },
+    "household": {
+      "display_name": "Household and Cleaning",
+      "margin_pct": 0.15,
+      "velocity": "medium",
+      "products": {
+        "surf_excel_500g": {"price": 135, "unit": "500g", "brand": "hindustan_unilever", "category": "household"},
+        "ariel_500g": {"price": 145, "unit": "500g", "brand": "pg", "category": "household"},
+        "vim_dish_bar_200g": {"price": 42, "unit": "200g", "brand": "hindustan_unilever", "category": "household"},
+        "harpic_500ml": {"price": 115, "unit": "500ml", "brand": "reckitt", "category": "household"},
+        "odomos_50g": {"price": 90, "unit": "50g", "brand": "dabur", "category": "household"},
+        "goodnight_liquid_45ml": {"price": 95, "unit": "45ml", "brand": "godrej", "category": "household"},
+        "hit_cockroach_200ml": {"price": 120, "unit": "200ml", "brand": "godrej", "category": "household"},
+        "lizol_500ml": {"price": 125, "unit": "500ml", "brand": "reckitt", "category": "household"}
+      }
+    },
+    "tobacco_pan": {
+      "display_name": "Tobacco and Pan Masala",
+      "margin_pct": 0.22,
+      "velocity": "very_high",
+      "products": {
+        "classic_cigarette_10s": {"price": 120, "unit": "10s", "brand": "itc", "category": "tobacco_pan"},
+        "gold_flake_10s": {"price": 100, "unit": "10s", "brand": "itc", "category": "tobacco_pan"},
+        "rajnigandha_pan_masala_6g": {"price": 5, "unit": "6g", "brand": "rajnigandha", "category": "tobacco_pan"},
+        "pan_bahar_8g": {"price": 5, "unit": "8g", "brand": "pan_bahar", "category": "tobacco_pan"},
+        "vimal_pan_masala_8g": {"price": 5, "unit": "8g", "brand": "vimal", "category": "tobacco_pan"}
+      }
+    },
+    "confectionery": {
+      "display_name": "Candy and Confectionery",
+      "margin_pct": 0.25,
+      "velocity": "high",
+      "products": {
+        "dairy_milk_silk_60g": {"price": 90, "unit": "60g", "brand": "cadbury", "category": "confectionery"},
+        "dairy_milk_40g": {"price": 40, "unit": "40g", "brand": "cadbury", "category": "confectionery"},
+        "5star_40g": {"price": 40, "unit": "40g", "brand": "cadbury", "category": "confectionery"},
+        "kitkat_35g": {"price": 30, "unit": "35g", "brand": "nestle", "category": "confectionery"},
+        "munch_25g": {"price": 20, "unit": "25g", "brand": "nestle", "category": "confectionery"},
+        "eclairs_toffee_bulk": {"price": 1, "unit": "piece", "brand": "cadbury", "category": "confectionery"},
+        "parle_kaccha_mango_10pc": {"price": 10, "unit": "10pc", "brand": "parle", "category": "confectionery"},
+        "hajmola_candy_8g": {"price": 5, "unit": "8g", "brand": "dabur", "category": "confectionery"}
+      }
+    }
+  },
+  "inventory_value_bands": {
+    "small_store": {
+      "min_inventory_value": 15000,
+      "max_inventory_value": 50000,
+      "typical_inventory_value": 30000
+    },
+    "medium_store": {
+      "min_inventory_value": 50000,
+      "max_inventory_value": 150000,
+      "typical_inventory_value": 90000
+    },
+    "large_store": {
+      "min_inventory_value": 150000,
+      "max_inventory_value": 400000,
+      "typical_inventory_value": 250000
+    },
+    "semi_wholesale": {
+      "min_inventory_value": 400000,
+      "max_inventory_value": 1200000,
+      "typical_inventory_value": 700000
+    }
+  }
+}
