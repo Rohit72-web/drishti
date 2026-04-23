@@ -24,42 +24,110 @@ def get_nearby_pois(lat, lng, api_key):
 
 def get_competition_density(lat, lng):
     query = f"""
-    [out:json];
+    [out:json][timeout:25];
     node["shop"="convenience"](around:500,{lat},{lng});
     out count;
     """
     url = "https://overpass-api.de/api/interpreter"
-    r = requests.post(url, data=query).json()
-    count = r.get("elements", [{}])[0].get("tags", {}).get("total", 0)
-    count = int(count) if count else 0
-    if count <= 2:
-        score = 0.8
-    elif count <= 5:
-        score = 0.6
-    elif count <= 10:
-        score = 0.4
-    else:
-        score = 0.2
-    return {
-        "competitor_count": count,
-        "competition_score": round(score, 2)
-    }
+    
+    try:
+        response = requests.post(
+            url, 
+            data=query,
+            timeout=30,
+            headers={"Content-Type": "application/x-www-form-urlencoded"}
+        )
+        
+        # Check if response is valid
+        if response.status_code != 200:
+            print(f"Overpass API status: {response.status_code}")
+            return {"competitor_count": 3, "competition_score": 0.6}
+        
+        # Check if response is actually JSON
+        content_type = response.headers.get("Content-Type", "")
+        if "json" not in content_type and "text" not in content_type:
+            print(f"Unexpected content type: {content_type}")
+            return {"competitor_count": 3, "competition_score": 0.6}
+
+        text = response.text.strip()
+        if not text or text.startswith("<"):
+            print("Overpass returned HTML or empty — using fallback")
+            return {"competitor_count": 3, "competition_score": 0.6}
+
+        data = response.json()
+        count = 0
+        if "elements" in data:
+            for el in data["elements"]:
+                if el.get("tags", {}).get("total"):
+                    count = int(el["tags"]["total"])
+                    break
+
+        if count <= 2:
+            score = 0.8
+        elif count <= 5:
+            score = 0.6
+        elif count <= 10:
+            score = 0.4
+        else:
+            score = 0.2
+
+        return {
+            "competitor_count": count,
+            "competition_score": round(score, 2)
+        }
+
+    except requests.exceptions.Timeout:
+        print("Overpass API timed out — using fallback")
+        return {"competitor_count": 3, "competition_score": 0.6}
+    
+    except requests.exceptions.ConnectionError:
+        print("Overpass API connection failed — using fallback")
+        return {"competitor_count": 3, "competition_score": 0.6}
+
+    except Exception as e:
+        print(f"Overpass API error: {e} — using fallback")
+        return {"competitor_count": 3, "competition_score": 0.6}
 
 def get_catchment_population(lat, lng):
     query = f"""
-    [out:json];
+    [out:json][timeout:25];
     node["place"~"village|suburb|neighbourhood"](around:1000,{lat},{lng});
     out;
     """
     url = "https://overpass-api.de/api/interpreter"
-    r = requests.post(url, data=query).json()
-    count = len(r.get("elements", []))
-    catchment_score = min(count / 10, 1.0)
-    return {
-        "area_count": count,
-        "catchment_score": round(catchment_score, 2)
-    }
+    
+    try:
+        response = requests.post(
+            url,
+            data=query,
+            timeout=30,
+            headers={"Content-Type": "application/x-www-form-urlencoded"}
+        )
 
+        if response.status_code != 200:
+            return {"area_count": 3, "catchment_score": 0.5}
+
+        text = response.text.strip()
+        if not text or text.startswith("<"):
+            print("Overpass catchment returned HTML — using fallback")
+            return {"area_count": 3, "catchment_score": 0.5}
+
+        data = response.json()
+        count = len(data.get("elements", []))
+        catchment_score = min(count / 10, 1.0)
+
+        return {
+            "area_count": count,
+            "catchment_score": round(catchment_score, 2)
+        }
+
+    except requests.exceptions.Timeout:
+        print("Overpass catchment timed out — using fallback")
+        return {"area_count": 3, "catchment_score": 0.5}
+
+    except Exception as e:
+        print(f"Overpass catchment error: {e} — using fallback")
+        return {"area_count": 3, "catchment_score": 0.5}
 def get_area_income(pincode, census_path="data/census_pincode.csv"):
     try:
         df = pd.read_csv(census_path)

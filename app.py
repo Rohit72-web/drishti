@@ -26,19 +26,24 @@ images = st.file_uploader(
 if st.button("Run DRISHTI Analysis") and images:
     with st.spinner("Analysing store..."):
         tmp_paths = []
+        tmp_files = []
+        
         for img in images:
-            tmp = tempfile.NamedTemporaryFile(delete=False,
-                                               suffix=".jpg")
+            tmp = tempfile.NamedTemporaryFile(
+                delete=False,
+                suffix=".jpg",
+                dir=tempfile.gettempdir()
+            )
             tmp.write(img.read())
+            tmp.flush()
+            tmp.close()  # close before processing — fixes Windows lock
             tmp_paths.append(tmp.name)
+            tmp_files.append(tmp.name)
 
         result = run_drishti(
             tmp_paths, lat, lng, pincode,
             shop_size or None, rent or None, years or None
         )
-
-        for p in tmp_paths:
-            os.unlink(p)
 
     if "error" in result:
         st.error(result["error"])
@@ -77,3 +82,11 @@ if st.button("Run DRISHTI Analysis") and images:
 
         with st.expander("Full JSON Output"):
             st.json(result)
+
+    # cleanup after everything is done and displayed
+    for p in tmp_files:
+        try:
+            if os.path.exists(p):
+                os.unlink(p)
+        except Exception as e:
+            print(f"Could not delete temp file {p}: {e}")
