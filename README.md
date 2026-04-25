@@ -13,7 +13,7 @@
 
 *A remote cash flow underwriting system for kirana stores using Vision + Geo Intelligence*
 
-Built for **Poonawalla Fincorp Hackathon 2025** — Problem Statement: Remote Cash Flow Underwriting for Kirana Stores
+Built for **Poonawalla Fincorp Hackathon 2026** — Problem Statement: Remote Cash Flow Underwriting for Kirana Stores
 
 </div>
 
