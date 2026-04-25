@@ -510,7 +510,7 @@ When 2 or more flags are raised the recommendation changes to `needs_verificatio
 
 ## Team
 
-Built by 3 B.Tech CSE students for Poonawalla Fincorp Hackathon 2025.
+Built by 3 B.Tech CSE students for Poonawalla Fincorp Hackathon 2026.
 
 | Member | Role |
 |---|---|
